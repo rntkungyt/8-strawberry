@@ -1,0 +1,82 @@
+
+body,
+body * {
+
+    margin: 0;
+    padding:0;
+    vertical-align: top; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+
+}
+
+.container {
+    display:inline-block;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.main-tittle {
+    color: #FF5E61;
+    font-size: 50px;
+    top: 0;
+}
+
+.left-column {
+
+    float: left;
+    width: 30%;
+    background-color:white;
+    background-image: url(../img/smoothies.png);
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    background-position: center;
+    position: absolute; 
+   
+}
+
+
+.container {
+    display:inline-block;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right-column {
+
+    float: right;
+    width: 50%;
+    background-color: white;
+    padding: 40px;
+    position: relative;
+     
+}
+
+.nav {
+
+    float: right;
+}
+
+button {
+    float: right;
+    padding: 10px 40px;
+    background-color: #FF5E61;
+    color:white;
+    border:none;
+    font-size: 18px;
+    border-radius: 21px;
+}
